@@ -1,1 +1,64 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Week 4 Homework jQuery fun!!! -->
+	<title>CrystalsCollector!</title>
+  	<!-- Bootstrap File -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<!-- JQuery -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ </head>
+
+<body>
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Jumbotron with Title -->
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>Crystals Collector!</strong></h1>
+    </div>
+	
+	<!-- Instructions -->
+    <div class="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+      	<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+      	<p>The value of each crystal is hidden from you until you click on it.</p>
+      	<p>Each time when the game starts, the game will change the values of each crystal. </p>
+    </div>
+	
+	<!-- Random Generated Number  -->
+    <div class="randomNumber">
+    	Stuff in here.
+		<div id="ranNum"></div>
+ 	</div>
+
+ 	<!-- Crystal images -->
+ 	<div class="crystalsAll">
+ 		<img class="crystals" value="crystalRed" src="assets/images/crystal-red.jpg" height="100" width="100">
+ 		<img class="crystals" value="crystalBlue" src="assets/images/crystal-blue.jpg" height="100" width="100">
+ 		<img class="crystals" value="crystalYellow" src="assets/images/crystal-yellow.jpg" height="100" width="100">
+ 		<img class="crystals" value="crystalGreen" src="assets/images/crystal-green.jpg" height="100" width="100">
+ 	</div>
+
+ 	<!-- Score -->
+ 	<div id="score">
+ 		<h4>Wins: </h4><div id="wins"></div>
+ 		<h4>Losses: </h4><div id="losses"></div>
+ 	</div>
+
+	<!-- Total Score line -->
+ 	<div id="totalScore">
+ 		<h4>Your Total Score is: <div id="userScore"></div></h4>
+ 	</div>
+
+
+</div>
+
+
+ </body>
+ </html>

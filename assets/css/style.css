@@ -1,0 +1,58 @@
+// CSS for Crystal Collector
+
+.jumbotron {
+	border-style: solid;
+    border-color: black;
+    height: 200px;
+}
+
+body {
+    background-image: url('https://previews.123rf.com/images/reamolko/reamolko1502/reamolko150200036/36617398-Colorful-abstract-crystal-background-Ice-or-jewel-structure-Pink-Yellow-and-green-bright-colors--Stock-Vector.jpg');
+}
+
+.instructions {
+	border-style: solid;
+	margin-right: 50%;
+	padding: 10px;
+	background-color: white;
+}
+
+.randomNumber {
+	border-style: solid;
+	margin-right: 50%;
+	margin-top: 10px;
+	background-color: #7FFFD4;
+	width: 200px;
+	padding: 10px;
+}
+
+.crystalsAll {
+	border-style: solid;
+	margin-top: 10px;
+	margin-right: 50%;
+	background-color: white;
+	width: 425px;
+}
+
+#score {
+	border-style: solid;
+	margin-right: 50%;
+	margin-top: 5px;
+	background-color: #00FFFF;
+	padding: 10px;
+	width: 100px;
+	float: right;
+}
+
+
+#totalScore {
+	clear: both;
+	border-style: solid;
+	margin-right: 50%;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #20B2AA;
+	width: 200px;
+}
+
+
